@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="KeyValueDataSet" targetNamespace="http://tempuri.org/KeyValueDataSet.xsd" xmlns:mstns="http://tempuri.org/KeyValueDataSet.xsd" xmlns="http://tempuri.org/KeyValueDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="KeyValueDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="KeyValueDataSet" msprop:Generator_UserDSName="KeyValueDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="KeyValue" msprop:Generator_TableClassName="KeyValueDataTable" msprop:Generator_TableVarName="tableKeyValue" msprop:Generator_TablePropName="KeyValue" msprop:Generator_RowDeletingName="KeyValueRowDeleting" msprop:Generator_RowChangingName="KeyValueRowChanging" msprop:Generator_RowEvHandlerName="KeyValueRowChangeEventHandler" msprop:Generator_RowDeletedName="KeyValueRowDeleted" msprop:Generator_UserTableName="KeyValue" msprop:Generator_RowChangedName="KeyValueRowChanged" msprop:Generator_RowEvArgName="KeyValueRowChangeEvent" msprop:Generator_RowClassName="KeyValueRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Key" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnKey" msprop:Generator_ColumnPropNameInRow="Key" msprop:Generator_ColumnPropNameInTable="KeyColumn" msprop:Generator_UserColumnName="Key" type="xs:anyType" minOccurs="0" />
+              <xs:element name="Value" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnPropNameInTable="ValueColumn" msprop:Generator_UserColumnName="Value" type="xs:anyType" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

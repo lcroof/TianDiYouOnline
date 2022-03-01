@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.WebSockets" Version="2.2.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataPublic\DataPublic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FreeRedis">
+      <HintPath>C:\Users\lcroof\Downloads\FreeRedis-master\FreeRedis-master\src\FreeRedis\bin\Debug\netcoreapp3.1\FreeRedis.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

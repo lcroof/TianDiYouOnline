@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataPublic\DataPublic.csproj" />
+    <ProjectReference Include="..\Functions\Functions.csproj" />
+    <ProjectReference Include="..\GameServerCore\GameServerCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FreeRedis">
+      <HintPath>C:\Users\lcroof\Downloads\FreeRedis-master\FreeRedis-master\src\FreeRedis\bin\Debug\netcoreapp3.1\FreeRedis.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>
